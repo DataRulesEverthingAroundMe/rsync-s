@@ -1,7 +1,7 @@
-import pytest
-import subprocess
+import sys
 import os
-import shutil
+import subprocess
+import pytest
 import tempfile
 from rsync_s.main import RsyncSExecutor
 
